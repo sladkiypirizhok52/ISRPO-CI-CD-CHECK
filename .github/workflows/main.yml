@@ -30,4 +30,4 @@ jobs:
 
       - name: Run unit tests
         run: |
-          pytest test_rectangle.py --maxfail=1 --disable-warnings -q
+          run: pytest Unit/ --maxfail=1 --disable-warnings -q
