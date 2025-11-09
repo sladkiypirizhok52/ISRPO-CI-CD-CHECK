@@ -30,4 +30,4 @@ jobs:
 
       - name: Run unit tests
         run: |
-          run: pytest Unit/ --maxfail=1 --disable-warnings -q
+          pytest Unit/ --maxfail=1 --disable-warnings -q
